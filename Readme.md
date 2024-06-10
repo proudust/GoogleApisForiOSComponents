@@ -14,7 +14,7 @@ If these packages are important to you, please consider **[sponsoring the projec
 Here's a table that shows in which Nuget package version is located each sdk of Firebase:
 
 
-| SDK Name                  |  SDK Version |   Nuget Package Version   |
+| SDK Name                        |  SDK Version      |   Nuget Package Version   |
 | ------------------------------- | :---------------: | :----------------: |
 | Firebase A/B Testing            |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.ABTesting)](https://nuget.org/packages/AdamE.Firebase.iOS.ABTesting) |
 | Firebase Analytics              |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.Analytics)](https://nuget.org/packages/AdamE.Firebase.iOS.Analytics) |
@@ -25,9 +25,9 @@ Here's a table that shows in which Nuget package version is located each sdk of 
 | Firebase Core                   |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.Core)](https://nuget.org/packages/AdamE.Firebase.iOS.Core) |
 | Firebase Crashlytics            |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.Crashlytics)](https://nuget.org/packages/AdamE.Firebase.iOS.Crashlytics)  
 | Firebase Database               |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.Database)](https://nuget.org/packages/AdamE.Firebase.iOS.Database) |
-| Firebase Dynamic Links          |    **8.10.0**     | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.DynamicLinks)](https://nuget.org/packages/AdamE.Firebase.iOS.DynamicLinks) |
+| Firebase Dynamic Links          |    **10.24.0**     | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.DynamicLinks)](https://nuget.org/packages/AdamE.Firebase.iOS.DynamicLinks) |
 | Firebase Installations          |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.Installations)](https://nuget.org/packages/AdamE.Firebase.iOS.Installations) |
-| Firebase RemoteConfig           |    **8.10.0**     | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.RemoteConfig)](https://nuget.org/packages/AdamE.Firebase.iOS.RemoteConfig) |
+| Firebase RemoteConfig           |    **10.24.0**     | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.RemoteConfig)](https://nuget.org/packages/AdamE.Firebase.iOS.RemoteConfig) |
 | Firebase Storage                |    **10.24.0**    | [![NuGet Version](https://img.shields.io/nuget/v/AdamE.Firebase.iOS.Storage)](https://nuget.org/packages/AdamE.Firebase.iOS.Storage) |
 
 > The alpha versions are pending to be tested.
