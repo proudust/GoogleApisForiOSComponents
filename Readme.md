@@ -88,9 +88,11 @@ Even with that Visual Studio can still be very temperamental with long file path
 2. Make sure you didn't skip step 1.
 3. Clear your local NuGet cache AND your local XamarinBuildDownload cache.
 4. Make sure you didn't skip step 3.
-5. Run a `dotnet restore` for your project/solution from the command line.
-6. Build your project/solution successfully from the command line.
-7. Make sure you didn't skip step 6.
+5. Delete your project `bin` and `obj` folders.
+6. Make sure you didn't skip step 5.
+7. Run a `dotnet restore` for your project/solution from the command line.
+8. Build your project/solution successfully from the command line.
+9. Make sure you didn't skip step 8.
 
 Now you should be able to build and debug your iOS app in Visual Studio. It will probably still choke during archiving though, so either do that step directly on a mac or try it on the CLI as well.
 
