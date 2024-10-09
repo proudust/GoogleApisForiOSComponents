@@ -179,7 +179,7 @@
 		<SmartLink>True</SmartLink>
 		<ForceLoad>True</ForceLoad>
 	  </_NativeReference>
-	  <_NativeReference Update="@(_NativeReference)" Condition="'%(_NativeReference._Id)' == '$(_ProimisesId)'">
+	  <_NativeReference Update="@(_NativeReference)" Condition="'%(_NativeReference._Id)' == '$(_PromisesId)'">
 		<Kind>Framework</Kind>
 		<SmartLink>True</SmartLink>
 		<ForceLoad>True</ForceLoad>
