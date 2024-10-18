@@ -240,11 +240,11 @@ void SetArtifactsPodSpecs ()
 		PodSpec.Create ("MLKitCommon",                     "11.0.0"),
 		PodSpec.Create ("MLKitVision",                     "7.0.0"),
 		PodSpec.Create ("MLImage",                         "1.0.0-beta5"),
-		PodSpec.Create ("MLKitImageLabelingCommon",        "7.0.0"),
-		PodSpec.Create ("MLKitObjectDetectionCommon",      "7.0.0"),
+		//PodSpec.Create ("MLKitImageLabelingCommon",        "7.0.0"),
+		//PodSpec.Create ("MLKitObjectDetectionCommon",      "7.0.0"),
 		PodSpec.Create ("GoogleToolboxForMac",             "4.2.1",       frameworkSource: FrameworkSource.Pods, subSpecs: new [] { "Core", "Defines", "Logger", "NSData+zlib"}),
 		PodSpec.Create ("GoogleUtilitiesComponents",       "1.1.0",       frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("SSZipArchive",                    "2.4.2",       frameworkSource: FrameworkSource.Pods),
+		//PodSpec.Create ("SSZipArchive",                    "2.4.2",       frameworkSource: FrameworkSource.Pods),
 	};
 	MLKIT_TEXT_RECOGNITION.PodSpecs = new [] { 
 		PodSpec.Create ("MLKitTextRecognitionCommon",      "1.0.0")

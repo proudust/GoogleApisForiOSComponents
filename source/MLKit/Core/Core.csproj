@@ -55,9 +55,9 @@
     <_NativeReference Include="..\..\..\externals\GoogleUtilitiesComponents.xcframework">
       <_Id>$(_GoogleUtilitiesComponentsId)</_Id>
     </_NativeReference>
-    <_NativeReference Include="..\..\..\externals\SSZipArchive.xcframework">
-      <_Id>$(_SSZipArchiveId)</_Id>
-    </_NativeReference>
+<!--    <_NativeReference Include="..\..\..\externals\SSZipArchive.xcframework">-->
+<!--      <_Id>$(_SSZipArchiveId)</_Id>-->
+<!--    </_NativeReference>-->
   </ItemGroup>
   <!-- End of workaround -->
   <ItemGroup Condition="'$(TargetFramework)' == 'xamarin.ios10'">
