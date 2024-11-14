@@ -24,7 +24,7 @@ Artifact GOOGLE_MAPS_ARTIFACT         = new Artifact ("Google.Maps",            
 Artifact GOOGLE_MOBILE_ADS_ARTIFACT   = new Artifact ("Google.MobileAds",             "8.13.0.3", "11.0", ComponentGroup.Google, csprojName: "MobileAds");
 Artifact GOOGLE_UMP_ARTIFACT          = new Artifact ("Google.UserMessagingPlatform", "1.1.0.1",  "11.0", ComponentGroup.Google, csprojName: "UserMessagingPlatform");
 Artifact GOOGLE_PLACES_ARTIFACT       = new Artifact ("Google.Places",                "6.0.0.3",  "12.0", ComponentGroup.Google, csprojName: "Places");
-Artifact GOOGLE_SIGN_IN_ARTIFACT      = new Artifact ("Google.SignIn",                "5.0.2.4",  "11.0", ComponentGroup.Google, csprojName: "SignIn");
+Artifact GOOGLE_SIGN_IN_ARTIFACT      = new Artifact ("Google.SignIn",                "8.0.0",    "11.0", ComponentGroup.Google, csprojName: "SignIn");
 Artifact GOOGLE_TAG_MANAGER_ARTIFACT  = new Artifact ("Google.TagManager",            "7.4.0.2",  "11.0", ComponentGroup.Google, csprojName: "TagManager");
 
 // MLKit artifacts available to be built. These artifacts generate NuGets.
@@ -227,9 +227,9 @@ void SetArtifactsPodSpecs ()
 		PodSpec.Create ("GooglePlaces", "6.0.0")
 	};
 	GOOGLE_SIGN_IN_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("GoogleSignIn", "5.0.2"),
-		PodSpec.Create ("AppAuth",      "1.4.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("GTMAppAuth",   "1.2.1", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("GoogleSignIn", "8.0.0"),
+		PodSpec.Create ("AppAuth",      "1.7.3", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("GTMAppAuth",   "4.1.1", frameworkSource: FrameworkSource.Pods),
 	};
 	GOOGLE_TAG_MANAGER_ARTIFACT.PodSpecs = new [] {
 		PodSpec.Create ("GoogleTagManager", "7.4.0")
