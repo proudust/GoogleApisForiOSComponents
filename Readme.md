@@ -187,6 +187,7 @@ Instead, you should do:
     <PackageReference Include="AdamE.Firebase.iOS.Core" Version="10.24.0.2" />
 </ItemGroup>
 ```
+Or, it's the Z-zip issue below:
 
 ## 7-zip issues
 Try https://github.com/AdamEssenmacher/GoogleApisForiOSComponents/issues/21#issuecomment-2172949175
