@@ -29,8 +29,7 @@ namespace Firebase.RemoteConfig
 	[BaseType (typeof (NSObject), Name = "FIRRemoteConfigValue")]
 	interface RemoteConfigValue : INSCopying
 	{
-		// @property (readonly, nonatomic) NSString * _Nullable stringValue;
-		[NullAllowed]
+		// @property (readonly, nonatomic) NSString * _Nonnull stringValue;
 		[Export ("stringValue")]
 		NSString NSStringValue { get; }
 

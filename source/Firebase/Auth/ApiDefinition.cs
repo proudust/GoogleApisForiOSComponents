@@ -126,8 +126,7 @@ namespace Firebase.Auth
 		[Export ("operation")]
 		ActionCodeOperation Operation { get; }
 
-		// @property (readonly, copy, nonatomic) NSString * _Nullable email;
-		[NullAllowed]
+		// @property (readonly, copy, nonatomic) NSString * _Nonnull email;
 		[Export ("email")]
 		string Email { get; }
 
