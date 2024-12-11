@@ -1,14 +1,14 @@
 <Project>
   <PropertyGroup>
-    <_GoogleMapsAssemblyName>Google.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</_GoogleMapsAssemblyName>
-    <_GoogleMapsItemsFolder>GMps-9.1.1</_GoogleMapsItemsFolder>
+    <_GoogleMapsAssemblyName>Google.Maps, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null</_GoogleMapsAssemblyName>
+    <_GoogleMapsItemsFolder>GMps-9.2.0</_GoogleMapsItemsFolder>
     <_GoogleMapsSDKBaseFolder>$(XamarinBuildDownloadDir)$(_GoogleMapsItemsFolder)\Maps\Frameworks\</_GoogleMapsSDKBaseFolder>
-    <_GoogleMapsBaseSDKBaseFolder>$(XamarinBuildDownloadDir)$(_GoogleMapsItemsFolder)\Base\Frameworks\</_GoogleMapsBaseSDKBaseFolder>
     <_GoogleMapsResourcesBaseFolder>$(XamarinBuildDownloadDir)$(_GoogleMapsItemsFolder)\Maps\Resources\GoogleMapsResources\GoogleMaps.bundle\</_GoogleMapsResourcesBaseFolder>
   </PropertyGroup>
   <ItemGroup Condition="('$(OutputType)'!='Library' OR '$(IsAppExtension)'=='True')">
     <XamarinBuildDownload Include="$(_GoogleMapsItemsFolder)">
-      <Url>https://dl.google.com/dl/cpdc/9555231399d822b1/GoogleMaps-9.1.1.tar.gz</Url>
+      <!-- From pod at https://github.com/CocoaPods/Specs/tree/master/Specs/a/d/d/GoogleMaps-->
+      <Url>https://dl.google.com/dl/cpdc/33a7ac549361ab23/GoogleMaps-9.2.0.tar.gz</Url>
       <Kind>Tgz</Kind>
     </XamarinBuildDownload>
     <NativeReference Include="$(_GoogleMapsSDKBaseFolder)GoogleMaps.xcframework">
@@ -16,20 +16,7 @@
       <SmartLink>True</SmartLink>
       <ForceLoad>True</ForceLoad>
       <LinkerFlags>-ObjC</LinkerFlags>
-      <Frameworks>Accelerate CoreImage CoreText GLKit ImageIO Metal OpenGLES QuartzCore</Frameworks>
-    </NativeReference>
-    <NativeReference Include="$(_GoogleMapsSDKBaseFolder)GoogleMapsCore.xcframework">
-      <Kind>Framework</Kind>
-      <SmartLink>True</SmartLink>
-      <ForceLoad>True</ForceLoad>
-      <LinkerFlags>-ObjC</LinkerFlags>
-    </NativeReference>
-    <NativeReference Include="$(_GoogleMapsBaseSDKBaseFolder)GoogleMapsBase.xcframework">
-      <Kind>Framework</Kind>
-      <SmartLink>True</SmartLink>
-      <ForceLoad>True</ForceLoad>
-      <LinkerFlags>-ObjC -lc++ -lz</LinkerFlags>
-      <Frameworks>Contacts CoreData CoreGraphics CoreLocation CoreTelephony QuartzCore SystemConfiguration UIKit</Frameworks>
+      <Frameworks>Accelerate Contacts CoreData CoreGraphics CoreImage CoreLocation CoreTelephony CoreText GLKit ImageIO Metal OpenGLES QuartzCore Security SystemConfiguration UIKit</Frameworks>
     </NativeReference>
     <XamarinBuildRestoreResources Include="_GMpsDownloadedItems" />
   </ItemGroup>
