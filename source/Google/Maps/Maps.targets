@@ -15,7 +15,7 @@
       <Kind>Framework</Kind>
       <SmartLink>True</SmartLink>
       <ForceLoad>True</ForceLoad>
-      <LinkerFlags>-ObjC</LinkerFlags>
+      <LinkerFlags>-ObjC -lc++ -lz</LinkerFlags>
       <Frameworks>Accelerate Contacts CoreData CoreGraphics CoreImage CoreLocation CoreTelephony CoreText GLKit ImageIO Metal OpenGLES QuartzCore Security SystemConfiguration UIKit</Frameworks>
     </NativeReference>
     <XamarinBuildRestoreResources Include="_GMpsDownloadedItems" />
@@ -129,6 +129,42 @@
       <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\DroidSansMerged-Regular.ttf" Visible="False">
         <LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\DroidSansMerged-Regular.ttf</LogicalName>
       </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2NavNightModeSprites-0-1x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2NavNightModeSprites-0-1x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2NavNightModeSprites-0-2x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2NavNightModeSprites-0-2x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2NavNightModeSprites-0-3x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2NavNightModeSprites-0-3x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2NavSprites-0-1x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2NavSprites-0-1x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2NavSprites-0-2x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2NavSprites-0-2x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2NavSprites-0-3x.png" Visible="False">
+	    <LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2NavSprites-0-3x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2Sprites-0-1x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2Sprites-0-1x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2Sprites-0-2x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2Sprites-0-2x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
+	  <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSMapColors2Sprites-0-3x.png" Visible="False">
+		<LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSMapColors2Sprites-0-3x.png</LogicalName>
+		<Optimize>False</Optimize>
+	  </BundleResource>
       <BundleResource Include="$(_GoogleMapsResourcesBaseFolder)GMSCoreResources.bundle\GMSNavNightModeSprites-0-1x.png" Visible="False">
         <LogicalName>GoogleMaps.bundle\GMSCoreResources.bundle\GMSNavNightModeSprites-0-1x.png</LogicalName>
         <Optimize>False</Optimize>
