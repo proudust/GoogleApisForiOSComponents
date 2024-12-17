@@ -149,66 +149,66 @@ void SetArtifactsPodSpecs ()
 {
 	// Firebase components
 	FIREBASE_AB_TESTING_ARTIFACT.PodSpecs = new [] { 
-		PodSpec.Create ("FirebaseABTesting", "11.0.0", frameworkSource: FrameworkSource.Pods)
+		PodSpec.Create ("FirebaseABTesting", "11.1.0", frameworkSource: FrameworkSource.Pods)
 	};
 	FIREBASE_ANALYTICS_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseAnalytics", "11.0.0")
+		PodSpec.Create ("FirebaseAnalytics", "11.1.0")
 	};
 	FIREBASE_AUTH_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseAuth",     "11.0.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseAuth",     "11.1.0", frameworkSource: FrameworkSource.Pods),
 		PodSpec.Create ("RecaptchaInterop", "100.0.0", frameworkSource: FrameworkSource.Pods)
 	};
 	FIREBASE_CLOUD_FIRESTORE_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseFirestore",         "11.0.0",       frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseFirestoreInternal", "11.0.0",       frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseFirestore",         "11.1.0",       frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseFirestoreInternal", "11.1.0",       frameworkSource: FrameworkSource.Pods),
 		PodSpec.Create ("BoringSSL-GRPC",            "0.0.36",       frameworkSource: FrameworkSource.Pods, frameworkName: "openssl_grpc"),
 		PodSpec.Create ("gRPC-Core",                 "1.65.5",       frameworkSource: FrameworkSource.Pods, frameworkName: "grpc"),
 		PodSpec.Create ("gRPC-C++",                  "1.65.5",       frameworkSource: FrameworkSource.Pods, frameworkName: "grpcpp"),
 		PodSpec.Create ("abseil",                    "1.20240116.2", frameworkSource: FrameworkSource.Pods, frameworkName: "absl", subSpecs: new [] { "algorithm", "base", "memory", "meta", "strings", "time", "types" }),
 	};
 	FIREBASE_CLOUD_FUNCTIONS_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseFunctions", "11.0.0", frameworkSource: FrameworkSource.Pods)		
+		PodSpec.Create ("FirebaseFunctions", "11.1.0", frameworkSource: FrameworkSource.Pods)		
 	};
 	FIREBASE_CLOUD_MESSAGING_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseMessaging", "11.0.0", frameworkSource: FrameworkSource.Pods)		
+		PodSpec.Create ("FirebaseMessaging", "11.1.0", frameworkSource: FrameworkSource.Pods)		
 	};
 	FIREBASE_CORE_ARTIFACT.PodSpecs = new [] {
-	    PodSpec.Create ("FirebaseAppCheckInterop",     "11.0.0", frameworkSource: FrameworkSource.Pods),
-	    PodSpec.Create ("FirebaseAuthInterop",         "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseCore",                "11.0.0", frameworkSource: FrameworkSource.Pods),		
-		PodSpec.Create ("FirebaseCoreExtension",       "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseCoreInternal",        "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseMessagingInterop",    "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseRemoteConfigInterop", "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseSessions",            "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("FirebaseSharedSwift",         "11.0.0", frameworkSource: FrameworkSource.Pods),
-		PodSpec.Create ("GoogleAppMeasurement",        "11.0.0"),
+	    PodSpec.Create ("FirebaseAppCheckInterop",     "11.1.0", frameworkSource: FrameworkSource.Pods),
+	    PodSpec.Create ("FirebaseAuthInterop",         "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseCore",                "11.1.0", frameworkSource: FrameworkSource.Pods),		
+		PodSpec.Create ("FirebaseCoreExtension",       "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseCoreInternal",        "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseMessagingInterop",    "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseRemoteConfigInterop", "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseSessions",            "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("FirebaseSharedSwift",         "11.1.0", frameworkSource: FrameworkSource.Pods),
+		PodSpec.Create ("GoogleAppMeasurement",        "11.1.0"),
 		PodSpec.Create ("PromisesSwift",               "2.4.0",  frameworkSource: FrameworkSource.Pods, frameworkName: "Promises", targetName: "PromisesSwift"),
 		PodSpec.Create ("leveldb-library",             "1.22.6", frameworkSource: FrameworkSource.Pods, frameworkName: "leveldb"),
 	};
 	FIREBASE_CRASHLYTICS_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseCrashlytics", "11.0.0", frameworkSource: FrameworkSource.Pods)
+		PodSpec.Create ("FirebaseCrashlytics", "11.1.0", frameworkSource: FrameworkSource.Pods)
 	};
 	FIREBASE_DATABASE_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseDatabase", "11.0.0", frameworkSource: FrameworkSource.Pods)		
+		PodSpec.Create ("FirebaseDatabase", "11.1.0", frameworkSource: FrameworkSource.Pods)		
 	};
 	FIREBASE_DYNAMIC_LINKS_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseDynamicLinks", "11.0.0", frameworkSource: FrameworkSource.Pods)
+		PodSpec.Create ("FirebaseDynamicLinks", "11.1.0", frameworkSource: FrameworkSource.Pods)
 	};
 	FIREBASE_IN_APP_MESSAGING_ARTIFACT.PodSpecs = new [] {
 		PodSpec.Create ("Firebase", "8.10.0", frameworkSource: FrameworkSource.Pods, frameworkName: "FirebaseInAppMessaging", targetName: "FirebaseInAppMessaging", subSpecs: new [] { "InAppMessaging" })
 	};
 	FIREBASE_INSTALLATIONS_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseInstallations", "11.0.0", frameworkSource: FrameworkSource.Pods)
+		PodSpec.Create ("FirebaseInstallations", "11.1.0", frameworkSource: FrameworkSource.Pods)
 	};
 	FIREBASE_PERFORMANCE_MONITORING_ARTIFACT.PodSpecs = new [] {
 		PodSpec.Create ("Firebase", "8.10.0", frameworkSource: FrameworkSource.Pods, frameworkName: "FirebasePerformance", targetName: "FirebasePerformance",  subSpecs: new [] { "Performance" })
 	};
 	FIREBASE_REMOTE_CONFIG_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseRemoteConfig", "11.0.0", frameworkSource: FrameworkSource.Pods)
+		PodSpec.Create ("FirebaseRemoteConfig", "11.1.0", frameworkSource: FrameworkSource.Pods)
 	};
 	FIREBASE_STORAGE_ARTIFACT.PodSpecs = new [] {
-		PodSpec.Create ("FirebaseStorage", "11.0.0", frameworkSource: FrameworkSource.Pods)
+		PodSpec.Create ("FirebaseStorage", "11.1.0", frameworkSource: FrameworkSource.Pods)
 	};
 	// FIREBASE_APP_DISTRIBUTION_ARTIFACT.PodSpecs = new [] {
 	// 	PodSpec.Create ("Firebase", "8.10.0", frameworkSource: FrameworkSource.Pods, frameworkName: "FirebaseAppDistribution", targetName: "FirebaseAppDistribution", subSpecs: new [] { "AppDistribution" })		
