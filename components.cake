@@ -28,7 +28,7 @@ Artifact GOOGLE_SIGN_IN_ARTIFACT               = new Artifact ("Google.SignIn", 
 Artifact GOOGLE_TAG_MANAGER_ARTIFACT           = new Artifact ("Google.TagManager",            "7.4.0.2",   "11.0", ComponentGroup.Google, csprojName: "TagManager");
 
 Artifact GOOGLE_PROMISES_OBJC_ARTIFACT         = new Artifact ("Google.PromisesObjC",          "2.4.0",     "10.0", ComponentGroup.Google, csprojName: "PromisesObjC");
-Artifact GOOGLE_GTM_SESSION_FETCHER_ARTIFACT   = new Artifact ("Google.GTMSessionFetcher",     "3.5.0",     "10.0", ComponentGroup.Google, csprojName: "GTMSessionFetcher");
+Artifact GOOGLE_GTM_SESSION_FETCHER_ARTIFACT   = new Artifact ("Google.GTMSessionFetcher",     "4.1.0",     "13.0", ComponentGroup.Google, csprojName: "GTMSessionFetcher");
 Artifact GOOGLE_NANOPB_ARTIFACT                = new Artifact ("Google.Nanopb",                "3.30910.0", "12.0", ComponentGroup.Google, csprojName: "Nanopb");
 Artifact GOOGLE_GOOGLE_UTILITIES_ARTIFACT      = new Artifact ("Google.GoogleUtilities",       "8.0.2",     "12.0", ComponentGroup.Google, csprojName: "GoogleUtilities");
 Artifact GOOGLE_GOOGLE_DATA_TRANSPORT_ARTIFACT = new Artifact ("Google.GoogleDataTransport",   "10.1.0",    "12.0", ComponentGroup.Google, csprojName: "GoogleDataTransport");
