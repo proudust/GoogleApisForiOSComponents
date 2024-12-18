@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <_FirebaseCoreAssemblyName>Firebase.Core, Version=11.1.0.0, Culture=neutral, PublicKeyToken=null</_FirebaseCoreAssemblyName>
+    <_FirebaseCoreAssemblyName>Firebase.Core, Version=11.2.0.0, Culture=neutral, PublicKeyToken=null</_FirebaseCoreAssemblyName>
     <_GoogleAppMeasurementItemsFolder>GAppM-11.1.0</_GoogleAppMeasurementItemsFolder>
     <_GoogleAppMeasurementSDKBaseFolder>$(XamarinBuildDownloadDir)$(_GoogleAppMeasurementItemsFolder)\GoogleAppMeasurement-11.1.0\Frameworks\</_GoogleAppMeasurementSDKBaseFolder>
   </PropertyGroup>
@@ -14,7 +14,6 @@
   </ItemGroup>
   <Target Name="_FCrDownloadedItems">
     <ItemGroup Condition="'$(FirebaseWithoutAdIdSupport)'!='True'">
-      <!-- From https://dl.google.com/firebase/ios/analytics/f60e4b9034ff4db0/GoogleAppMeasurement-11.1.0.tar.gz -->
       <NativeReference Include="$(_GoogleAppMeasurementSDKBaseFolder)GoogleAppMeasurementIdentitySupport.xcframework">
         <Kind>Framework</Kind>
         <SmartLink>True</SmartLink>
@@ -24,7 +23,6 @@
       </NativeReference>
     </ItemGroup>
     <ItemGroup>
-      <!-- From https://dl.google.com/firebase/ios/analytics/f60e4b9034ff4db0/GoogleAppMeasurement-11.1.0.tar.gz -->
       <NativeReference Include="$(_GoogleAppMeasurementSDKBaseFolder)GoogleAppMeasurement.xcframework">
         <Kind>Framework</Kind>
         <SmartLink>True</SmartLink>
